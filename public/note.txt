@@ -1,0 +1,8 @@
+
+NOTATKA 1.
+1.Przygotowa plik zip
+2.Zalogowa si na stronie sterownika
+3.klikn w zakadk upload
+4.wczyta plik z nonika zewntrznego
+5.klikn wylij.
+NOTATKA 2.

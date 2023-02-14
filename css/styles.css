@@ -1,0 +1,367 @@
+/* UKŁAD STRONY */
+
+body{
+    background-color: white;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: white;
+    width: 1024px;
+    height: auto;
+    margin: auto;
+}
+a{
+    color: #2a52be;
+    text-decoration: none;
+}
+a:hover{
+    color: #6c7897;
+    text-decoration: underline;
+}
+a:visited{
+	color: #2a52be;
+}
+a:active{
+	color: brown;
+}
+.logo{
+    background-color: white;
+    /* width: 1024px; */
+    height: 60px;
+}
+.img{
+    margin-top: 10px;
+    padding: 5px;
+    float: left;
+}
+.ster{
+    margin-top: 10px;
+    padding: 5px;
+    float: left;
+}
+.object-name{
+    background-color:white;
+    height: 60px;
+    width: 200px;
+    float: right;
+}
+.object-name-number{
+    background-color:white;
+    height: 60px;
+    width: 120px;
+    float: right;
+}
+#object-name-login{
+    background-color:white;
+    height: 60px;
+    width: 100px;
+    float: right;
+}
+.menu{
+    background-color:#bfbfbf;
+    /* width: 1024px; */
+    height: 100px;
+    border: 2px #2a52be;
+    float: left;
+}
+.nav-menu{
+    background-color: #2a52be;
+    width: 200px;
+    height: 39px;
+}    
+.text-white{
+    padding: .75rem 1.25rem;
+    color: #fff;
+    font-weight: 500;  
+    letter-spacing: 2px;
+}
+.text-white-center{
+    padding: .75rem 1.25rem;
+    color: #fff;
+    font-weight: 500;  
+    text-align: center;
+    letter-spacing: 2px;
+}
+.text-grey-center{
+    padding-top: .55rem;
+    color: rgb(62, 62, 62);
+    font-weight: 500;  
+    text-align: center;
+    letter-spacing: 2px;
+}
+.text-blue{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: .10rem 1.25rem;
+    color: #2a52be;
+    font-weight: 500;
+}
+.text-blue:hover{
+    cursor: pointer;
+    color: #6c7897;
+}
+.text-blue-menu{
+    padding: .30rem 1.05rem;
+    color: #2a52be;
+    font-weight: 500;  
+}
+#text-red-menu-login{
+    padding: .10rem 1.25rem;
+    color: #ff0000;
+    font-weight: 500; 
+    float: left;
+}
+#text-red-menu-login:hover{
+    color: #ff8d8d;
+    cursor: pointer;
+}
+
+#text-black-menu-name{
+    padding: .10rem 1.25rem;
+    color: #000000;
+    font-weight: 500; 
+    float: left; 
+}
+#text-black-menu-ster{
+    padding: .10rem 1.50rem;
+    color: #000000;
+    font-weight: 900; 
+    float: left; 
+}
+
+#text-green-menu-dysp{
+    padding: .10rem 1.25rem;
+    color: #097007;
+    font-weight: 500;  
+    float: left;
+}
+#text-green-menu-fiz{
+    padding: .10rem 1.25rem;
+    color: #097007;
+    font-weight: 500; 
+    float: left;
+}
+.nav{
+    background-color: rgb(222, 222, 222);
+    width: 200px;
+    height: 800px;
+    float: left;
+    border: 2px solid #2a52be;
+}
+.content{
+    background-color: #ffffff;
+    width: 2px;
+    height: 800px;
+    float: left;
+}
+.content-one{
+    background-color: rgb(222, 222, 222);
+    width: 814px;
+    height: 800px;
+    float: left;
+    /* margin: 1%; */
+    /* margin: 3px 3px; */
+    border: 2px solid #2a52be;
+}
+.content-one-menu{
+    background-color: #2a52be;
+    height: 40px;
+}
+.content-two{
+    background-color: rgb(222, 222, 222);
+    width: 400px;
+    height: 100px;
+    /* float: left; */
+    margin: 1%;
+    padding: 1%;
+    border: 0px solid black;
+}
+.content-box{
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(222, 222, 222);
+    width: 900px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    border: 2px solid #2a52be;
+}
+.firmware-box{
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: rgb(222, 222, 222);
+    width: 300px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid #2a52be;
+}
+.form-input-box{
+    padding: auto;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    font-family:Tahoma, Geneva, sans-serif;
+}
+.form-input-box input[type="text"]{
+    font-size: .75em;
+    width: 250px;
+    padding: 5px;
+}
+.form-input-box input[type="password"]{
+    font-size: .75em;
+    width: 250px;
+    padding: 5px;
+}
+.form-box{
+    text-align: center;
+    padding-top: 12%;
+    padding-left: 27%;
+    max-width: 10px;
+}
+input[type="submit"] {
+    /* padding: 10px 25px; */
+    font-size: 1em;
+    color: rgb(209, 209, 209);
+    background-color: #2a52be;
+    border: none;
+    }
+input[type="submit"]:hover {
+    cursor: pointer;
+    /* padding: 10px 25px; */
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    background-color: #2a52be;
+    border: none;
+    }     
+.return{
+    font-family: 'Bitter', 'Arial Black', serif;
+    color: #283950;
+    text-decoration: none;
+    font-size: 1.0em;
+}
+#footer{
+    text-align: center;
+    height: 30px;
+    clear: both;
+}
+.nav-text{
+    font-style: normal;
+    color: white;
+}
+.label-fiz1{
+    padding-top: 7px;
+    padding-left: 15px;
+    float: left;
+}
+.label-fiz2{
+    padding-top: 7px;
+    padding-left: 65px;
+    float: left;
+}
+.label-fiz3{
+    padding-top: 7px;
+    padding-left: 10px;
+    float: left;
+}
+.label-dysp1{
+    padding-top: 7px;
+    padding-left: 15px;
+    float: left;
+}
+.label-dysp2{
+    padding-top: 7px;
+    padding-left: 28px;
+    float: left;
+}
+.label-dysp3{
+    padding-top: 7px;
+    padding-left: 10px;
+    float: left;
+}
+.label-name1{
+    padding-top: 7px;
+    padding-left: 15px;
+    float: left;
+}
+.label-name2{
+    padding-top: 7px;
+    padding-left: 15px;
+    float: left;
+}
+.label-name3{
+    padding-top: 7px;
+    padding-left: 10px;
+    float: left;
+}
+.status{
+    padding-left: 30px;
+
+}
+.status-l{
+    padding-left: 30px;
+
+}
+.label-opis{
+    margin-right:30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+}
+.label-pole{
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+.label-wynik{
+ 
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 170px;
+    height: 150px;
+    background-color: #ffffff;
+    padding-top: 3px;
+    padding-left: 10px;
+    float: left;
+}
+.label-data{
+    margin-top: 0px;
+    padding: 5px;
+    clear:both
+}
+.data{
+    padding: auto;
+}
+.opis{
+    margin-top: 2px;
+    margin-bottom: 1px;
+}
+.wpis{
+    margin-top: .01em;
+    margin-bottom: .01em;
+}
+.btn{
+    margin-left: 20px;
+}
+.logout{
+    margin-top: 5px;
+}
+.status-menu{
+    margin-left: 2em;
+    float: left;
+}
+.status-menu-l{
+    margin-left: 5em;
+    margin-right: 5em;
+    float: left;
+}
+.status-menu-r{
+    margin-left: 0em;
+}
+.napis{
+    padding-top: 10px;
+}

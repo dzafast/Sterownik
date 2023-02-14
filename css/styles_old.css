@@ -1,0 +1,353 @@
+/* UKLAD STRONY */
+.container{
+    width: 1024px;
+    height: 768px;
+    margin: auto;
+}
+/* SERVIS */
+.pasek-lewy{
+    background-color: white;
+    width: 10px;
+    height: 600px;
+    float: left;
+
+}
+.ramka-download{
+    background-color: rgb(222, 222, 222);
+    width: 400px;
+    height: 150px;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.ramka-upload{
+    background-color: rgb(222, 222, 222);
+    width: 200px;
+    height: 230px;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/* KONIEC SERVIS */
+
+/* STATUS */
+.ramka-ifconfig{
+    background-color: rgb(222, 222, 222);
+    /* width: 400px; */
+    /* height: 200px; */
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.ramka-mod{
+    background-color: rgb(222, 222, 222);
+    /* width: 200px; */
+    height: 100px;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/* KONIEC STATUS */
+/* KONIEC UKLADU STRONY */
+
+#menu{
+    background-color: #eee;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+body{
+
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-family: 'Bitter', 'Arial Black', serif;
+	color: rgb(57, 55, 55);
+    font-size: 1em;
+    text-align: center;
+}
+
+#menu a{
+    font-family: 'Bitter', 'Arial Black', serif;
+    text-decoration: none;
+    font-weight: normal;
+    color: #283950;
+    font-size: 1.2em;
+    margin: 20px;
+    margin-left: 10px;
+}
+
+/* ZMIANA TEKSTU MENU PO NAJECHANIU KURSOREM */
+#menu a:hover {
+    font-weight: normal;
+    background-color: #a3b5c7;
+    background-position: 3px 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    }
+
+/* NOTATNIK */
+.title{
+    font-family: 'Bitter', 'Arial Black', serif;
+    font-size: 1em;
+}
+table{
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+thead{
+    border-spacing: 2px;
+    text-align: right;
+}
+tbody{
+    text-align: right;
+}
+
+td, th { padding: 2%;}
+
+
+.ramka {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.notatka { background-color: rgb(209, 209, 209); }
+
+.center{
+    padding-top: 15px;
+    text-align: center;
+}
+    /* <DIV> */
+
+.top{
+    padding-top: 40px;
+} 
+/* OPŁYWAJACE RAMKI - ramki w poziomie*/
+.box{
+    float: left;
+}   
+.box-clear{
+    clear: both;
+}
+.space{
+    border-radius: 5px;
+}
+
+    /* STOPKA */
+.index-footer{
+    background-color: rgb(108, 108, 108);
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.index-footer a {
+    font-size: large;
+    text-decoration: none;
+    color: #dadada;
+    font-family:Tahoma, Geneva, sans-serif;
+}
+.admin-footer{
+    padding-top: 125px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: 1px dashed #000;
+    border-top: 1px dashed #000;
+}
+.admin-footer a {
+    color: #283950;
+    
+}
+/* KONIEC FOOTER */
+    /* BUTTON'S */
+.btn {
+    border-radius: 5px;
+    font-family: 'Bitter', 'Arial Black', serif;
+    font-size: 1.1em;
+    }
+
+    /* LOGOWANIE */
+.login-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(231, 231, 231);
+    width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 11vh 5vh 7vh;
+    border-radius: 10px;
+    box-shadow: 0 25px 35px rgb(96, 91, 91);
+}
+
+.avatar{
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+
+.php{
+    margin: 0 0 3vh;
+    font-size: 1.3rem;
+    color: rgb(67, 67, 67);
+    font-family:Tahoma, Geneva, sans-serif;
+}
+
+.form--input-box{
+    position: relative;
+    text-align: left;
+    margin: 0 0 3vh;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    font-family:Tahoma, Geneva, sans-serif;
+
+}
+.form--input-box .label{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+input[type="submit"] {
+
+    padding: 10px 25px;
+    font-size: 1em;
+    color: rgb(93, 93, 93);
+    background: rgb(0,102,153);
+    background: linear-gradient(to bottom, rgba(255,255,255,.1) 40%, rgba(255,255,255,.5));
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgb(56, 56, 56);
+    }    
+
+.form--input-box input[type="text"]{
+    font-size: 1.2em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    width: 300px;
+    padding: 5px;
+    }
+
+    /* PASKI NAWIGACJI STRONA ADMIN */
+ul.nav{
+    list-style-type: none;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    margin-left: 10px;
+    border-bottom: 1px dashed #000;
+    border-top: 1px dashed #000;
+}
+
+ul.nav a{
+    font-family: 'Bitter', 'Arial Black', serif;
+    text-decoration: none;
+    font-weight: normal;
+    color: #283950;
+    font-size: 1em;
+    margin: 0;
+    margin-left: 10px;
+    display: inline;
+    width: em;
+}
+
+.nav li { display: inline }
+
+a {
+    height: 1.25em;
+    line-height: 1.25em;
+}
+.nav a {
+    display: inline-block;
+    border: 1px dashed #000;
+    border-bottom: none;
+    padding: 5px 15px 5px 15px;
+    margin-right: -5px;
+    background-color: #EAEAEA;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    }
+
+/* CENTROWANIE CALEJ STRONY */
+.center-block {
+    width: 50%;
+    margin: 0 auto;
+    }
+
+/* NAPIS ZALOGOWANY */
+span { 
+    float: right;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: large;
+    font-family: 'Bitter', 'Arial Black', serif;
+}
+
+/* NAPIS WULOGUJ */
+a span:hover{
+    font-weight: normal;
+    background-color: #ffe312;
+    background-position: 1px 50%;
+
+}
+/* POWRÓT */
+.return a{
+    font-family: 'Bitter', 'Arial Black', serif;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: #ffe312;
+    background-position: 3px 50%;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+
+.return{
+    font-size: 1.0em;
+}
+
+.tdreturn{
+    border: 0px solid black;
+    font-family: 'Bitter', 'Arial Black', serif;
+}
+
+.divreturn a{
+    font-family: 'Bitter', 'Arial Black', serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #283950;
+    text-decoration: none;
+    font-size: 1.0em;
+
+}
+/* DOWNLOAD-UPLOAD */
+.table-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
